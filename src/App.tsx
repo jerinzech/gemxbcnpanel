@@ -110,7 +110,7 @@ export const App: React.FC = () => {
 
       {/* Right Side Image */}
       <img
-        src="gemnewlogo.png"
+        src="gemnewlogo2.png"
         alt="Panel Logo"
         className="footer-image"
       />
