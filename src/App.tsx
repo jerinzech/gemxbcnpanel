@@ -15,32 +15,32 @@ const guestSpeakers: SpeakerProps[] = [
     role: 'Agathe Tavernier',
     jobTitle: 'Head of People - Spain',
     company: 'Skello',
-    imageUrl: 'public/AgatheTavernier.png'
+    imageUrl: '/public/AgatheTavernier.png'
   },
   {
     role: 'Benjamin Costes',
     jobTitle: 'Enterprise Account Executive',
     company: 'Confluent',
-    imageUrl: 'public/BenjaminCostes.png'
+    imageUrl: '/public/BenjaminCostes.png'
   },
   {
     role: 'Jennifer Cabasson',
     jobTitle: 'Responsable Acquisition & CRM',
     company: 'JULES & JENN',
-    imageUrl: 'public/JenniferCabasson.png'
+    imageUrl: '/public/JenniferCabasson.png'
   },
   {
     role: 'Marion Escaffre',
     jobTitle: 'Head of Partnerships',
     company: 'Shopify',
-    imageUrl: 'public/MarionEscaffre.png'
+    imageUrl: '/public/MarionEscaffre.png'
   },
 
   {
     role: 'Romain Gatt',
     jobTitle: 'Managing Partner, Entrepreneur ',
     company: 'SILERON',
-    imageUrl: 'public/RomainGatt.png'
+    imageUrl: '/public/RomainGatt.png'
   },
 
 ];
