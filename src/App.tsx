@@ -12,30 +12,44 @@ interface SpeakerProps {
 // 2. Add sample image URLs to your dummy data
 const guestSpeakers: SpeakerProps[] = [
   {
-    role: 'Guest Name',
-    jobTitle: 'Job Title',
-    company: 'Company Name',
-    imageUrl: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300&q=80'
+    role: 'Agathe Tavernier',
+    jobTitle: 'Head of People - Spain',
+    company: 'Skello',
+    imageUrl: 'public/AgatheTavernier.png'
   },
   {
-    role: 'Guest Name',
-    jobTitle: 'Job Title',
-    company: 'Company Name',
-    imageUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80'
+    role: 'Benjamin Costes',
+    jobTitle: 'Enterprise Account Executive',
+    company: 'Confluent',
+    imageUrl: 'public/BenjaminCostes.png'
   },
   {
-    role: 'Guest Name',
-    jobTitle: 'Job Title',
-    company: 'Company Name',
-    imageUrl: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=300&q=80'
+    role: 'Jennifer Cabasson',
+    jobTitle: 'Responsable Acquisition & CRM',
+    company: 'JULES & JENN',
+    imageUrl: 'public/JenniferCabasson.png'
   },
+  {
+    role: 'Marion Escaffre',
+    jobTitle: 'Head of Partnerships',
+    company: 'Shopify',
+    imageUrl: 'public/MarionEscaffre.png'
+  },
+
+  {
+    role: 'Romain Gatt',
+    jobTitle: 'Managing Partner, Entrepreneur ',
+    company: 'SILERON',
+    imageUrl: 'public/RomainGatt.png'
+  },
+
 ];
 
 const hostSpeaker: SpeakerProps = {
-  role: 'Host Name',
-  jobTitle: 'Job Title',
-  company: 'Company Name',
-  imageUrl: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=300&q=80'
+  role: 'Assil El Kharsa',
+  jobTitle: 'Student & Enterpreneur',
+  company: 'GEM',
+  imageUrl: 'public/AssilElKharsa.png'
 };
 
 export const App: React.FC = () => {
