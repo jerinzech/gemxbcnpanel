@@ -1,6 +1,13 @@
 import React from 'react';
 import './App.css';
 
+import agatheTavernier from 'public/AgatheTavernier.png';
+import benjaminCostes from 'public/BenjaminCostes.png';
+import jenniferCabasson from 'public/JenniferCabasson.png';
+import marionEscaffre from 'public/MarionEscaffre.png';
+import romainGatt from 'public/RomainGatt.png';
+import assilElKharsa from 'public/AssilElKharsa.png';
+
 // 1. Add imageUrl to your interface
 interface SpeakerProps {
   role: string;
@@ -15,32 +22,32 @@ const guestSpeakers: SpeakerProps[] = [
     role: 'Agathe Tavernier',
     jobTitle: 'Head of People - Spain',
     company: 'Skello',
-    imageUrl: '/public/AgatheTavernier.png'
+    imageUrl: agatheTavernier
   },
   {
     role: 'Benjamin Costes',
     jobTitle: 'Enterprise Account Executive',
     company: 'Confluent',
-    imageUrl: '/public/BenjaminCostes.png'
+    imageUrl: benjaminCostes
   },
   {
     role: 'Jennifer Cabasson',
     jobTitle: 'Responsable Acquisition & CRM',
     company: 'JULES & JENN',
-    imageUrl: '/public/JenniferCabasson.png'
+    imageUrl: jenniferCabasson
   },
   {
     role: 'Marion Escaffre',
     jobTitle: 'Head of Partnerships',
     company: 'Shopify',
-    imageUrl: '/public/MarionEscaffre.png'
+    imageUrl: marionEscaffre
   },
 
   {
     role: 'Romain Gatt',
     jobTitle: 'Managing Partner, Entrepreneur ',
     company: 'SILERON',
-    imageUrl: '/public/RomainGatt.png'
+    imageUrl: romainGatt
   },
 
 ];
@@ -49,7 +56,7 @@ const hostSpeaker: SpeakerProps = {
   role: 'Assil El Kharsa',
   jobTitle: 'Student & Enterpreneur',
   company: 'GEM',
-  imageUrl: 'public/AssilElKharsa.png'
+  imageUrl: assilElKharsa
 };
 
 export const App: React.FC = () => {
