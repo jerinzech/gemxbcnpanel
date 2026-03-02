@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import agatheTavernier from 'public/AgatheTavernier.png';
-import benjaminCostes from 'public/BenjaminCostes.png';
-import jenniferCabasson from 'public/JenniferCabasson.png';
-import marionEscaffre from 'public/MarionEscaffre.png';
-import romainGatt from 'public/RomainGatt.png';
-import assilElKharsa from 'public/AssilElKharsa.png';
+import agatheTavernier from '/AgatheTavernier.png';
+import benjaminCostes from '/BenjaminCostes.png';
+import jenniferCabasson from '/JenniferCabasson.png';
+import marionEscaffre from '/MarionEscaffre.png';
+import romainGatt from '/RomainGatt.png';
+// import assilElKharsa from '/AssilElKharsa.png';
 
 // 1. Add imageUrl to your interface
 interface SpeakerProps {
@@ -56,7 +56,7 @@ const hostSpeaker: SpeakerProps = {
   role: 'Assil El Kharsa',
   jobTitle: 'Student & Enterpreneur',
   company: 'GEM',
-  imageUrl: assilElKharsa
+  imageUrl: " /AssilElKharsa.png"
 };
 
 export const App: React.FC = () => {
